@@ -20,9 +20,6 @@ autoload -U compinit && compinit
 
 zinit cdreplay -q
 
-# Load oh-my-posh
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/config.toml)"
-
 # Keybinds
 bindkey '^n' history-search-forward
 bindkey '^p' history-search-backward
