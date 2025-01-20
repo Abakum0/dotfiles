@@ -13,7 +13,6 @@ vim.opt.breakindent = true -- enable line breaking indentation
 
 -- General Settings
 vim.opt.backup = false -- disables swap/backup files
-vim.opt.clipboard = "unnamedplus" -- use system clipboard for yanks
 vim.opt.timeoutlen = 500
 vim.opt.scrolloff = 10 -- number of lines to keep below/above the cursor
 vim.opt.sidescrolloff = 8 -- number of columns to keep to the left/right of the cursor
