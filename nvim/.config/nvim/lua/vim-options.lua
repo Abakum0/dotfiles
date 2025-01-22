@@ -46,3 +46,8 @@ vim.keymap.set('i', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 vim.keymap.set('i', '<right>', '<cmd>echo "Use l to move!!"<CR>')
 vim.keymap.set('i', '<up>', '<cmd>echo "Use k to move!!"<CR>')
 vim.keymap.set('i', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+
+vim.keymap.set('v', '<left>', '<cmd>echo "Use h to move!!"<CR>')
+vim.keymap.set('v', '<right>', '<cmd>echo "Use l to move!!"<CR>')
+vim.keymap.set('v', '<up>', '<cmd>echo "Use k to move!!"<CR>')
+vim.keymap.set('v', '<down>', '<cmd>echo "Use j to move!!"<CR>')
