@@ -1,5 +1,5 @@
 # Dotfiles
-## pacman -S git stow kitty nvim ripgrep tmux zsh jdk21-openjdk
+## yay -S git hyprland hyprlock hyprshot hyprpaper jdk21-openjdk kitty libnotify nvim ripgrep stow tmux unzip waybar wofi zsh
 # Tmux
 ## git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 ## ctrl + space + I
