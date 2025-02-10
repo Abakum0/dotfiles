@@ -16,6 +16,9 @@ return {
 			require("luasnip.loaders.from_vscode").lazy_load()
 
 			cmp.setup({
+                enabled = function()
+                    return vim.g.cmptoggle
+                end,
 				snippet = {
 					-- REQUIRED - you must specify a snippet engine
 					expand = function(args)
